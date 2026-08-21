@@ -1,6 +1,6 @@
-//console.log("Hello using JS")
-// const a=89;//here we can also use let or var
-// console.log("a="+a);
+console.log("Hello using JS")
+const a=89;//here we can also use let or var
+console.log("a="+a);
 
 // let a=79;
 // if(a>30){
@@ -16,8 +16,7 @@
 //     console.log("b inside the block=" +b);
 // }
 // console.log("b outside the block=" +b);
-
-//using function as expression
+// using function as expression
 // const sum=function(a,b){
 //     return a+b;
 // }
@@ -39,7 +38,7 @@
 // const result=mysqrt(25);
 // console.log("Square root of 25 is "+result); u can use this method also to return the value and store it in a variable and then print it.
 
-//IIFE (Immediate Invoked Function Expression)
+// IIFE (Immediate Invoked Function Expression)
 // (()=>{console.log("HELLOoooooooooooooooo IIFE")})(
 
 // function sum(a,b){
@@ -90,7 +89,7 @@
 // }
 // console.log("Third")
 
-//callback hell
+// callback hell
 // setTimeout(()=>{
 //     setTimeout(()=>{
 //         setTimeout(()=>{
@@ -133,14 +132,26 @@
 //     console.log("All the resources have been closed")
 // })
 
-async function handlelog(){
-    try{
-        await myPromise
-    } catch(error){
-        console.log(error);
-    }
-    finally{
-        console.log("Login execution successful");
-    }
-}
-handlelog();
+// const myPromise = new Promise((resolve, reject) => {
+//     let username = "admin";
+//     let password = "12345";
+
+//     if (username === "admin" && password === "12345") {
+//         resolve("Login successful");
+//     } else {
+//         reject("Login failed");
+//     }
+// });
+
+// async function handleLogin() {
+//     try {
+//         const result = await myPromise;
+//         console.log(result);
+//     } catch (error) {
+//         console.error(error);
+//     } finally {
+//         console.log("Login execution completed");
+//     }
+// }
+
+// handleLogin();
