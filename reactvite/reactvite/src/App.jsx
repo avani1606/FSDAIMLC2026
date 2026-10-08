@@ -8,12 +8,12 @@ import ICardGallery from './component/ICardGallery'
 import React from "react";
 import ImdbCard from "./component/ImdbCard";
 import StateHandling from './component/StateHandling';
-
+import Imagemanipulation from './component/Imagemanipulation';
 function App() {
   return (
     <div>
-<StateHandling />
-
+{/* <StateHandling /> */}
+<Imagemanipulation/>
     </div>
   )
 }
