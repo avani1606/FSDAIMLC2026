@@ -9,11 +9,13 @@ import React from "react";
 import ImdbCard from "./component/ImdbCard";
 import StateHandling from './component/StateHandling';
 import Imagemanipulation from './component/Imagemanipulation';
+import SampleUseEffect from './component/SampleUseEffect';
 function App() {
   return (
     <div>
 {/* <StateHandling /> */}
-<Imagemanipulation/>
+{/* <Imagemanipulation/> */}
+<SampleUseEffect/>
     </div>
   )
 }
