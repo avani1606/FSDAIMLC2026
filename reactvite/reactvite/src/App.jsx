@@ -10,12 +10,14 @@ import ImdbCard from "./component/ImdbCard";
 import StateHandling from './component/StateHandling';
 import Imagemanipulation from './component/Imagemanipulation';
 import SampleUseEffect from './component/SampleUseEffect';
+import Shopping from './component/Shopping';
 function App() {
   return (
     <div>
 {/* <StateHandling /> */}
 {/* <Imagemanipulation/> */}
-<SampleUseEffect/>
+{/* <SampleUseEffect/> */}
+<Shopping/>
     </div>
   )
 }
